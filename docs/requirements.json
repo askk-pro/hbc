@@ -1,0 +1,137 @@
+{
+  "epics": [
+    {
+      "id": "EPIC-001",
+      "title": "Business Listings & Registration",
+      "features": [
+        {
+          "id": "FEAT-001",
+          "title": "Self-Registration for Hindu Business Owners",
+          "stories": [
+            {
+              "id": "STORY-001",
+              "title": "Owner can register business details",
+              "description": "As a business owner, I can register my profile with details like name, contact, category, etc.",
+              "priority": "high",
+              "status": "todo",
+              "estimate_hours": 3,
+              "labels": [
+                "registration",
+                "form",
+                "user"
+              ]
+            },
+            {
+              "id": "STORY-002",
+              "title": "Admin can approve or reject registrations",
+              "description": "As an admin, I can review submitted businesses and approve or reject them.",
+              "priority": "high",
+              "status": "todo",
+              "estimate_hours": 2,
+              "labels": [
+                "admin",
+                "approval"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "FEAT-002",
+          "title": "Business Directory & Search",
+          "stories": [
+            {
+              "id": "STORY-003",
+              "title": "Users can search for businesses",
+              "description": "As a user, I can search for businesses by name, category, or location.",
+              "priority": "medium",
+              "status": "todo",
+              "estimate_hours": 3,
+              "labels": [
+                "search",
+                "user"
+              ]
+            },
+            {
+              "id": "STORY-004",
+              "title": "Users can view business details",
+              "description": "As a user, I can view a business's contact info and description.",
+              "priority": "medium",
+              "status": "todo",
+              "estimate_hours": 2,
+              "labels": [
+                "detail",
+                "user"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EPIC-002",
+      "title": "Lead Management & Monetization",
+      "features": [
+        {
+          "id": "FEAT-003",
+          "title": "Lead Capture System",
+          "stories": [
+            {
+              "id": "STORY-005",
+              "title": "Visitor can submit a lead",
+              "description": "As a visitor, I can submit a lead inquiry to a business.",
+              "priority": "high",
+              "status": "todo",
+              "estimate_hours": 2,
+              "labels": [
+                "lead",
+                "user"
+              ]
+            },
+            {
+              "id": "STORY-006",
+              "title": "Business owner can view received leads",
+              "description": "As a business owner, I can view leads submitted to my business.",
+              "priority": "medium",
+              "status": "todo",
+              "estimate_hours": 2,
+              "labels": [
+                "lead",
+                "business"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "FEAT-004",
+          "title": "Lead Pricing & Credit System",
+          "stories": [
+            {
+              "id": "STORY-007",
+              "title": "Admin can define lead pricing",
+              "description": "As an admin, I can set prices per lead category/region.",
+              "priority": "medium",
+              "status": "todo",
+              "estimate_hours": 2,
+              "labels": [
+                "admin",
+                "pricing"
+              ]
+            },
+            {
+              "id": "STORY-008",
+              "title": "Business owner can view and buy credits",
+              "description": "As a business owner, I can view my credit balance and purchase more credits.",
+              "priority": "medium",
+              "status": "todo",
+              "estimate_hours": 3,
+              "labels": [
+                "credits",
+                "billing"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
