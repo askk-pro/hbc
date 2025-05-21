@@ -1,0 +1,8 @@
+✅ Development Workflow Plan
+Create/Update requirements.json
+
+Pick next STORY-ID based on priority
+
+Implement code specifically for that story (commit message: STORY-001: implemented user registration)
+
+Mark status: done once completed
