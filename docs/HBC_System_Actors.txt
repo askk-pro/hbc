@@ -1,0 +1,14 @@
+HBC System Actors:
+
+- Admin
+- Business
+- Business Owner
+- Business User
+- Developer
+- Dharmic Business
+- Premium Business User
+- Super Admin
+- User
+- User Or Business Owner
+- User Signing Up
+- Visitor

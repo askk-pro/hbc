@@ -1,0 +1,39 @@
+System Actors for Hindu Business Community (HBC)
+==================================================
+
+Business Owner
+--------------
+- Registers and manages business details.
+- Views and purchases lead credits.
+- Manages leads, events, offers, and greetings.
+- Subscribes to pricing plans and add-ons.
+
+User / Visitor
+--------------
+- Registers and logs into the system.
+- Searches and views business listings.
+- Submits leads to businesses.
+- Books appointments, donates, or purchases products.
+
+Admin / Super Admin
+-------------------
+- Approves/rejects business registrations.
+- Manages roles, permissions, and user access.
+- Defines lead pricing and monitors transactions.
+- Configures analytics, compliance, and security.
+
+Developer
+---------
+- Implements role definitions and access control.
+- Ensures payment security and API compliance.
+
+Support / Moderator
+-------------------
+- Assists users and businesses (implied by role definitions).
+
+System (Automated)
+------------------
+- Handles OTP verification and expiration.
+- Generates invoices and system emails.
+- Enforces plan limits and lead credit rules.
+
