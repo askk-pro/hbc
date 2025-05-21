@@ -1,0 +1,85 @@
+Here are 3 **sample Tailwind + React components** styled with your HBC theme:
+
+---
+
+## 1️⃣ **Hero Section (Homepage Banner)**
+
+```jsx
+export default function Hero() {
+  return (
+    <section className="bg-background-light text-text-light dark:bg-background-dark dark:text-text-dark py-20 px-6 text-center">
+      <h1 className="text-headline font-heading mb-4">
+        🙏 Welcome to Hindu Business Community
+      </h1>
+      <p className="text-subhead font-body max-w-2xl mx-auto mb-6">
+        Discover and support dharmic businesses around you. From Ayurveda to Temples, Handicrafts to Vedic Services.
+      </p>
+      <div className="flex justify-center gap-4 flex-wrap">
+        <button className="bg-primary text-white px-6 py-3 rounded-lg hover:bg-accent transition">
+          Explore Listings
+        </button>
+        <button className="border border-primary text-primary px-6 py-3 rounded-lg hover:bg-primary hover:text-white transition">
+          Register Business
+        </button>
+      </div>
+    </section>
+  );
+}
+```
+
+---
+
+## 2️⃣ **Plan Card (Pricing Component)**
+
+```jsx
+export function PlanCard({ plan }) {
+  return (
+    <div className="bg-card-light dark:bg-card-dark border border-accent p-6 rounded-xl shadow-md hover:scale-105 transition-all">
+      <h2 className="text-xl font-heading mb-2 text-accent">{plan.name}</h2>
+      <p className="text-body text-sm mb-4">{plan.description}</p>
+      <ul className="text-sm text-text-light dark:text-text-dark mb-4 list-disc list-inside">
+        {plan.features.map((f, idx) => <li key={idx}>{f}</li>)}
+      </ul>
+      <div className="font-bold text-lg mb-3 text-green">₹{plan.price}/mo</div>
+      <button className="bg-primary text-white px-4 py-2 rounded hover:bg-accent">
+        Choose Plan
+      </button>
+    </div>
+  );
+}
+```
+
+---
+
+## 3️⃣ **Notification Toast (Success/Error)**
+
+```jsx
+export function Toast({ type = "success", message }) {
+  const colors = {
+    success: "bg-success text-white",
+    error: "bg-error text-white",
+    info: "bg-info text-white"
+  };
+  return (
+    <div className={`fixed top-4 right-4 p-4 rounded-lg shadow-lg ${colors[type]} animate-fadeIn`}>
+      {message}
+    </div>
+  );
+}
+```
+
+> ⚡ Add `animate-fadeIn` using `@tailwindcss/animations` or Framer Motion if needed.
+
+---
+
+## ✨ Next Suggestions:
+
+* Build `/components/ui` folder with: Button, Card, Section, Alert, Tag
+* Add `chakra-style` plan tags or badges
+* Use `Framer Motion` for reveal animations in each section
+
+Want me to:
+
+* Generate full responsive **home page layout**?
+* Build **admin dashboard template** using this theme?
+* Package these into a GitHub repo starter?

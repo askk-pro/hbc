@@ -1,0 +1,262 @@
+[
+  {
+    "name": "users",
+    "category": "Authentication",
+    "purpose": "Stores user credentials, contact info, and verification status"
+  },
+  {
+    "name": "roles",
+    "category": "Authentication",
+    "purpose": "Defines system roles and permission sets"
+  },
+  {
+    "name": "user_business_roles",
+    "category": "Authentication",
+    "purpose": "Maps users to businesses with a specific role"
+  },
+  {
+    "name": "user_devices",
+    "category": "Authentication",
+    "purpose": "Tracks device info for push notifications"
+  },
+  {
+    "name": "businesses",
+    "category": "Business",
+    "purpose": "Main table for business profiles"
+  },
+  {
+    "name": "business_categories",
+    "category": "Business",
+    "purpose": "Stores classification for businesses"
+  },
+  {
+    "name": "business_localized",
+    "category": "Business",
+    "purpose": "Language-specific name and description"
+  },
+  {
+    "name": "business_hours",
+    "category": "Business",
+    "purpose": "Opening and closing times"
+  },
+  {
+    "name": "business_media",
+    "category": "Business",
+    "purpose": "Logos, gallery, videos"
+  },
+  {
+    "name": "business_badges",
+    "category": "Business",
+    "purpose": "Tags like 'Top Rated', 'New', etc."
+  },
+  {
+    "name": "business_verification",
+    "category": "Business",
+    "purpose": "KYC details, document proofs"
+  },
+  {
+    "name": "business_social_links",
+    "category": "Business",
+    "purpose": "Instagram, Facebook, LinkedIn URLs"
+  },
+  {
+    "name": "leads",
+    "category": "Leads",
+    "purpose": "User-to-business lead requests"
+  },
+  {
+    "name": "lead_pricing",
+    "category": "Leads",
+    "purpose": "Pricing per category/region"
+  },
+  {
+    "name": "lead_credit_transactions",
+    "category": "Leads",
+    "purpose": "Records of credit purchase/use"
+  },
+  {
+    "name": "lead_credit_balances",
+    "category": "Leads",
+    "purpose": "Current available credits"
+  },
+  {
+    "name": "pricing_plans",
+    "category": "Payments",
+    "purpose": "Subscription plans with tier info"
+  },
+  {
+    "name": "subscriptions",
+    "category": "Payments",
+    "purpose": "Plan subscription history"
+  },
+  {
+    "name": "payments",
+    "category": "Payments",
+    "purpose": "Payment records from gateways"
+  },
+  {
+    "name": "invoices",
+    "category": "Payments",
+    "purpose": "Auto-generated payment documents"
+  },
+  {
+    "name": "addon_purchases",
+    "category": "Payments",
+    "purpose": "Extras like lead top-ups"
+  },
+  {
+    "name": "events",
+    "category": "Engagement",
+    "purpose": "Workshops and event listings"
+  },
+  {
+    "name": "offers",
+    "category": "Engagement",
+    "purpose": "Discount coupons, limited-time deals"
+  },
+  {
+    "name": "festival_campaigns",
+    "category": "Engagement",
+    "purpose": "Festive banners, special listings"
+  },
+  {
+    "name": "greetings",
+    "category": "Engagement",
+    "purpose": "Business greetings audio/video with moderation"
+  },
+  {
+    "name": "business_reviews",
+    "category": "Engagement",
+    "purpose": "Star ratings and comments from users"
+  },
+  {
+    "name": "saved_businesses",
+    "category": "Engagement",
+    "purpose": "Bookmarks by users"
+  },
+  {
+    "name": "appointments",
+    "category": "Appointments",
+    "purpose": "Appointment records between users and businesses"
+  },
+  {
+    "name": "appointment_slots",
+    "category": "Appointments",
+    "purpose": "Available slots per business"
+  },
+  {
+    "name": "products",
+    "category": "eCommerce",
+    "purpose": "Product catalog"
+  },
+  {
+    "name": "product_variants",
+    "category": "eCommerce",
+    "purpose": "Variants like size or color"
+  },
+  {
+    "name": "product_categories",
+    "category": "eCommerce",
+    "purpose": "Product groupings"
+  },
+  {
+    "name": "orders",
+    "category": "eCommerce",
+    "purpose": "Customer purchases"
+  },
+  {
+    "name": "order_items",
+    "category": "eCommerce",
+    "purpose": "Line items of each order"
+  },
+  {
+    "name": "order_refunds",
+    "category": "eCommerce",
+    "purpose": "Refund and return tracking"
+  },
+  {
+    "name": "hindu_calendar",
+    "category": "Special",
+    "purpose": "Panchang and muhurta calendar"
+  },
+  {
+    "name": "calendar_notes",
+    "category": "Special",
+    "purpose": "Cultural notes and date significance"
+  },
+  {
+    "name": "donation_causes",
+    "category": "Special",
+    "purpose": "Campaigns for donations"
+  },
+  {
+    "name": "donations",
+    "category": "Special",
+    "purpose": "Donation entries (with or without user)"
+  },
+  {
+    "name": "referrals",
+    "category": "Special",
+    "purpose": "Tracking of referred users"
+  },
+  {
+    "name": "referral_rewards",
+    "category": "Special",
+    "purpose": "Credits/discounts for successful referrals"
+  },
+  {
+    "name": "notifications",
+    "category": "System",
+    "purpose": "User alerts and system messages"
+  },
+  {
+    "name": "push_tokens",
+    "category": "System",
+    "purpose": "Stores FCM or device push tokens"
+  },
+  {
+    "name": "email_templates",
+    "category": "System",
+    "purpose": "Template body for email notifications"
+  },
+  {
+    "name": "audit_logs",
+    "category": "System",
+    "purpose": "History of changes/actions with IP"
+  },
+  {
+    "name": "rate_limits",
+    "category": "System",
+    "purpose": "Tracks API throttling per IP/user"
+  },
+  {
+    "name": "feature_flags",
+    "category": "System",
+    "purpose": "Feature rollout control"
+  },
+  {
+    "name": "settings",
+    "category": "System",
+    "purpose": "Key-value pair configuration store"
+  },
+  {
+    "name": "languages",
+    "category": "Localization",
+    "purpose": "Enabled language codes"
+  },
+  {
+    "name": "translations",
+    "category": "Localization",
+    "purpose": "Translation keys and values"
+  },
+  {
+    "name": "support_tickets",
+    "category": "Support",
+    "purpose": "User-submitted help issues"
+  },
+  {
+    "name": "support_ticket_messages",
+    "category": "Support",
+    "purpose": "Agent-user thread content"
+  }
+]

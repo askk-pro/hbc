@@ -1,0 +1,29 @@
+{
+  "colors": {
+    "primary": "#F77F00",
+    "secondary": "#5C3A21",
+    "accent": "#FFD700",
+    "green": "#A3B18A",
+    "indigo": "#2C2C54",
+    "background_light": "#FFF8E7",
+    "background_dark": "#1A1A1A",
+    "text_light": "#1A1A1A",
+    "text_dark": "#EEE",
+    "card_light": "#FFFFFF",
+    "card_dark": "#2C2C54",
+    "error": "#B00020",
+    "success": "#4CAF50",
+    "info": "#1976D2"
+  },
+  "typography": {
+    "heading": "Poppins, sans-serif",
+    "body": "Inter, sans-serif",
+    "optional_heading": "Tiro Devanagari Sanskrit, serif",
+    "sizes": {
+      "headline": "32px",
+      "subhead": "24px",
+      "body": "16px",
+      "caption": "13px"
+    }
+  }
+}
