@@ -1,0 +1,136 @@
+{
+  "Authentication & Identity": [
+    [
+      "Users",
+      "user_id PK, email, phone, password_hash, role_id FK, language_preference, is_verified, created_at, last_login"
+    ],
+    [
+      "Roles",
+      "role_id PK, name, permissions JSON"
+    ],
+    [
+      "UserBusinessRole",
+      "user_id FK, business_id FK, role_type, assigned_by FK, created_at"
+    ]
+  ],
+  "Business Registry": [
+    [
+      "Businesses",
+      "business_id PK, owner_id FK, name, category_id FK, plan_id FK, address, location_coords, is_approved, credits_balance"
+    ],
+    [
+      "BusinessLocalized",
+      "localized_id PK, business_id FK, language_code, translated_name, translated_description"
+    ],
+    [
+      "BusinessCategory",
+      "category_id PK, name, icon"
+    ],
+    [
+      "BusinessHours",
+      "hours_id PK, business_id FK, day_of_week, open_time, close_time, is_closed"
+    ],
+    [
+      "BusinessMedia",
+      "media_id PK, business_id FK, type, url, caption, is_primary"
+    ]
+  ],
+  "Lead Management": [
+    [
+      "Leads",
+      "lead_id PK, business_id FK, user_id FK, message, status, created_at"
+    ],
+    [
+      "LeadPricing",
+      "pricing_id PK, category_id FK, region, price_per_lead, valid_from"
+    ],
+    [
+      "CreditTransactions",
+      "transaction_id PK, business_id FK, amount, type, payment_id FK, balance_snapshot, timestamp"
+    ]
+  ],
+  "Plans & Payments": [
+    [
+      "PricingPlans",
+      "plan_id PK, name, price, lead_credits, features JSON, is_active"
+    ],
+    [
+      "Subscriptions",
+      "subscription_id PK, business_id FK, plan_id FK, start_date, end_date, auto_renew, status"
+    ],
+    [
+      "Payments",
+      "payment_id PK, user_id FK, amount, method, gateway, status, invoice_url, timestamp"
+    ],
+    [
+      "AddOnPurchases",
+      "purchase_id PK, business_id FK, addon_type, quantity, campaign_id FK, created_at"
+    ]
+  ],
+  "Engagement Modules": [
+    [
+      "Events",
+      "event_id PK, business_id FK, title, description, start_time, end_time, is_recurring"
+    ],
+    [
+      "Offers",
+      "offer_id PK, business_id FK, title, description, discount_code, valid_until, is_festival_offer"
+    ],
+    [
+      "FestivalCampaigns",
+      "campaign_id PK, name, start_date, end_date, featured_businesses JSON"
+    ]
+  ],
+  "Appointment Booking": [
+    [
+      "Appointments",
+      "appointment_id PK, business_id FK, user_id FK, slot_id FK, status, notes"
+    ],
+    [
+      "AppointmentSlots",
+      "slot_id PK, business_id FK, start_time, end_time, max_capacity, is_booked"
+    ]
+  ],
+  "eCommerce": [
+    [
+      "Products",
+      "product_id PK, business_id FK, name, description, price, stock, category"
+    ],
+    [
+      "Orders",
+      "order_id PK, user_id FK, business_id FK, total_amount, status, created_at"
+    ],
+    [
+      "OrderItems",
+      "order_item_id PK, order_id FK, product_id FK, quantity, unit_price"
+    ]
+  ],
+  "Special Features": [
+    [
+      "HinduCalendar",
+      "date_id PK, date, is_muhurta, significance, recommended_activities"
+    ],
+    [
+      "DonationCauses",
+      "cause_id PK, business_id FK, title, description, target_amount, verification_status"
+    ],
+    [
+      "Referrals",
+      "referral_id PK, referrer_id FK, referee_id FK, reward_status, credits_awarded"
+    ]
+  ],
+  "System & Communication": [
+    [
+      "Notifications",
+      "notification_id PK, user_id FK, title, message, type, is_read, created_at"
+    ],
+    [
+      "AuditLogs",
+      "log_id PK, user_id FK, action, entity_type, entity_id, old_values, new_values, timestamp"
+    ],
+    [
+      "Languages",
+      "language_id PK, code, name, is_active"
+    ]
+  ]
+}
