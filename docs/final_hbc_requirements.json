@@ -1,0 +1,946 @@
+{
+  "epics": [
+    {
+      "id": "EPIC-001",
+      "title": "Business Listings & Registration",
+      "features": [
+        {
+          "id": "FEAT-001",
+          "title": "Self-Registration for Hindu Business Owners",
+          "stories": [
+            {
+              "id": "STORY-001",
+              "title": "Owner can register business details",
+              "description": "As a business owner, I can register my profile with details like name, contact, category, etc.",
+              "priority": "high",
+              "status": "todo",
+              "estimate_hours": 3,
+              "labels": [
+                "registration",
+                "form",
+                "user"
+              ]
+            },
+            {
+              "id": "STORY-002",
+              "title": "Admin can approve or reject registrations",
+              "description": "As an admin, I can review submitted businesses and approve or reject them.",
+              "priority": "high",
+              "status": "todo",
+              "estimate_hours": 2,
+              "labels": [
+                "admin",
+                "approval"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "FEAT-002",
+          "title": "Business Directory & Search",
+          "stories": [
+            {
+              "id": "STORY-003",
+              "title": "Users can search for businesses",
+              "description": "As a user, I can search for businesses by name, category, or location.",
+              "priority": "medium",
+              "status": "todo",
+              "estimate_hours": 3,
+              "labels": [
+                "search",
+                "user"
+              ]
+            },
+            {
+              "id": "STORY-004",
+              "title": "Users can view business details",
+              "description": "As a user, I can view a business's contact info and description.",
+              "priority": "medium",
+              "status": "todo",
+              "estimate_hours": 2,
+              "labels": [
+                "detail",
+                "user"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EPIC-002",
+      "title": "Lead Management & Monetization",
+      "features": [
+        {
+          "id": "FEAT-003",
+          "title": "Lead Capture System",
+          "stories": [
+            {
+              "id": "STORY-005",
+              "title": "Visitor can submit a lead",
+              "description": "As a visitor, I can submit a lead inquiry to a business.",
+              "priority": "high",
+              "status": "todo",
+              "estimate_hours": 2,
+              "labels": [
+                "lead",
+                "user"
+              ]
+            },
+            {
+              "id": "STORY-006",
+              "title": "Business owner can view received leads",
+              "description": "As a business owner, I can view leads submitted to my business.",
+              "priority": "medium",
+              "status": "todo",
+              "estimate_hours": 2,
+              "labels": [
+                "lead",
+                "business"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "FEAT-004",
+          "title": "Lead Pricing & Credit System",
+          "stories": [
+            {
+              "id": "STORY-007",
+              "title": "Admin can define lead pricing",
+              "description": "As an admin, I can set prices per lead category/region.",
+              "priority": "medium",
+              "status": "todo",
+              "estimate_hours": 2,
+              "labels": [
+                "admin",
+                "pricing"
+              ]
+            },
+            {
+              "id": "STORY-008",
+              "title": "Business owner can view and buy credits",
+              "description": "As a business owner, I can view my credit balance and purchase more credits.",
+              "priority": "medium",
+              "status": "todo",
+              "estimate_hours": 3,
+              "labels": [
+                "credits",
+                "billing"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EPIC-003",
+      "title": "Optional & Engagement Features",
+      "features": [
+        {
+          "id": "FEAT-005",
+          "title": "WhatsApp Chat Integration",
+          "stories": [
+            {
+              "id": "STORY-009",
+              "title": "Enable WhatsApp chat button",
+              "description": "As a visitor, I can click a WhatsApp button to contact the business directly.",
+              "priority": "low",
+              "status": "todo",
+              "estimate_hours": 2,
+              "labels": [
+                "chat",
+                "whatsapp",
+                "integration"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "FEAT-006",
+          "title": "Business Greetings with Audio/Video",
+          "stories": [
+            {
+              "id": "STORY-010",
+              "title": "Business can upload audio/video greetings",
+              "description": "As a business owner, I can upload an audio or video message to greet users.",
+              "priority": "low",
+              "status": "todo",
+              "estimate_hours": 3,
+              "labels": [
+                "media",
+                "video",
+                "audio"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "FEAT-007",
+          "title": "Hindu Calendar Business Planning",
+          "stories": [
+            {
+              "id": "STORY-011",
+              "title": "View upcoming muhurta days",
+              "description": "As a business owner, I can view recommended muhurta days for launches and events.",
+              "priority": "low",
+              "status": "todo",
+              "estimate_hours": 3,
+              "labels": [
+                "calendar",
+                "muhurta",
+                "planning"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "FEAT-008",
+          "title": "Event & Offer Announcements",
+          "stories": [
+            {
+              "id": "STORY-012",
+              "title": "Business can post an event or offer",
+              "description": "As a business owner, I can create and display events or offers to users.",
+              "priority": "medium",
+              "status": "todo",
+              "estimate_hours": 3,
+              "labels": [
+                "event",
+                "offer",
+                "promotion"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "FEAT-009",
+          "title": "Festival Offers",
+          "stories": [
+            {
+              "id": "STORY-013",
+              "title": "Highlight festival-specific promotions",
+              "description": "As an admin, I can highlight offers during festivals on the homepage or category pages.",
+              "priority": "medium",
+              "status": "todo",
+              "estimate_hours": 2,
+              "labels": [
+                "festival",
+                "offer",
+                "seasonal"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EPIC-004",
+      "title": "Multilingual Support",
+      "features": [
+        {
+          "id": "FEAT-010",
+          "title": "Language Selection",
+          "stories": [
+            {
+              "id": "STORY-014",
+              "title": "User can choose preferred language",
+              "description": "As a user, I can choose English, Telugu, or Hindi as my preferred language for browsing.",
+              "priority": "high",
+              "status": "todo",
+              "estimate_hours": 2,
+              "labels": [
+                "language",
+                "settings",
+                "user"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "FEAT-011",
+          "title": "Localized Content Support",
+          "stories": [
+            {
+              "id": "STORY-015",
+              "title": "Business info can be saved in multiple languages",
+              "description": "As a business owner, I can enter my business name and description in English, Telugu, and Hindi.",
+              "priority": "high",
+              "status": "todo",
+              "estimate_hours": 3,
+              "labels": [
+                "localization",
+                "content",
+                "multilingual"
+              ]
+            },
+            {
+              "id": "STORY-016",
+              "title": "UI elements change based on language preference",
+              "description": "As a user, the interface adjusts labels, menus, and buttons to the selected language.",
+              "priority": "high",
+              "status": "todo",
+              "estimate_hours": 3,
+              "labels": [
+                "ui",
+                "language",
+                "i18n"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EPIC-005",
+      "title": "Role-Based Access & Permissions",
+      "features": [
+        {
+          "id": "FEAT-012",
+          "title": "Role Definitions and Assignment",
+          "stories": [
+            {
+              "id": "STORY-017",
+              "title": "Define role types and their permissions",
+              "description": "As a developer, I want to define role types such as super_admin, admin, business, user, moderator, and support with specific permissions.",
+              "priority": "high",
+              "status": "todo",
+              "estimate_hours": 2,
+              "labels": [
+                "auth",
+                "roles",
+                "permissions"
+              ]
+            },
+            {
+              "id": "STORY-018",
+              "title": "Assign default role to new signups",
+              "description": "As a user signing up, I should be assigned the 'user' role by default.",
+              "priority": "high",
+              "status": "todo",
+              "estimate_hours": 1,
+              "labels": [
+                "auth",
+                "signup"
+              ]
+            },
+            {
+              "id": "STORY-019",
+              "title": "Upgrade role to 'business' after admin approval",
+              "description": "As an admin, I can approve a user's registration and upgrade their role to 'business'.",
+              "priority": "high",
+              "status": "todo",
+              "estimate_hours": 2,
+              "labels": [
+                "admin",
+                "business",
+                "approval"
+              ]
+            },
+            {
+              "id": "STORY-020",
+              "title": "Restrict access to features based on role",
+              "description": "As a developer, I need to enforce access control so only authorized roles can perform specific actions.",
+              "priority": "high",
+              "status": "todo",
+              "estimate_hours": 3,
+              "labels": [
+                "rbac",
+                "security",
+                "access"
+              ]
+            },
+            {
+              "id": "STORY-021",
+              "title": "Admin can assign or change roles",
+              "description": "As a super_admin, I can assign or change the roles of other users such as promoting to admin or support.",
+              "priority": "medium",
+              "status": "todo",
+              "estimate_hours": 2,
+              "labels": [
+                "admin",
+                "roles",
+                "management"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EPIC-008",
+      "title": "Future Revenue Streams & Integrations",
+      "features": [
+        {
+          "id": "FEAT-013",
+          "title": "Online Appointment Booking",
+          "stories": [
+            {
+              "id": "STORY-022",
+              "title": "Enable appointment slots for businesses",
+              "description": "As a business owner (e.g., astrologer or consultant), I can define my availability and allow users to book appointment slots.",
+              "priority": "low",
+              "status": "todo",
+              "estimate_hours": 5,
+              "labels": [
+                "booking",
+                "calendar",
+                "appointments"
+              ]
+            },
+            {
+              "id": "STORY-023",
+              "title": "User can book and get confirmation",
+              "description": "As a user, I can choose a time slot, book an appointment, and receive confirmation with contact details.",
+              "priority": "low",
+              "status": "todo",
+              "estimate_hours": 3,
+              "labels": [
+                "booking",
+                "user",
+                "confirmation"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "FEAT-014",
+          "title": "eCommerce Micro-Store Integration",
+          "stories": [
+            {
+              "id": "STORY-024",
+              "title": "Businesses can list products for sale",
+              "description": "As a business owner, I can create a mini store with products, prices, and stock.",
+              "priority": "low",
+              "status": "todo",
+              "estimate_hours": 6,
+              "labels": [
+                "ecommerce",
+                "store",
+                "products"
+              ]
+            },
+            {
+              "id": "STORY-025",
+              "title": "Users can view and purchase products",
+              "description": "As a user, I can browse products from a business profile and place an order.",
+              "priority": "low",
+              "status": "todo",
+              "estimate_hours": 4,
+              "labels": [
+                "ecommerce",
+                "user",
+                "purchase"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "FEAT-015",
+          "title": "Training, Workshops, and Events Listing",
+          "stories": [
+            {
+              "id": "STORY-026",
+              "title": "Business can publish training/event details",
+              "description": "As a business owner, I can publish details about an upcoming training, workshop, or dharmic event.",
+              "priority": "low",
+              "status": "todo",
+              "estimate_hours": 3,
+              "labels": [
+                "event",
+                "training",
+                "calendar"
+              ]
+            },
+            {
+              "id": "STORY-027",
+              "title": "Users can view and register for events",
+              "description": "As a user, I can view events and optionally register to attend.",
+              "priority": "low",
+              "status": "todo",
+              "estimate_hours": 2,
+              "labels": [
+                "event",
+                "user",
+                "registration"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "FEAT-016",
+          "title": "Donation Support for Dharmic Causes",
+          "stories": [
+            {
+              "id": "STORY-028",
+              "title": "Businesses can receive donations",
+              "description": "As a dharmic business, I can set up a verified donation link or QR code for contributions.",
+              "priority": "low",
+              "status": "todo",
+              "estimate_hours": 3,
+              "labels": [
+                "donation",
+                "dharmic",
+                "business"
+              ]
+            },
+            {
+              "id": "STORY-029",
+              "title": "Users can donate to verified causes",
+              "description": "As a user, I can browse verified causes and donate securely.",
+              "priority": "low",
+              "status": "todo",
+              "estimate_hours": 2,
+              "labels": [
+                "donation",
+                "user",
+                "cause"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EPIC-009",
+      "title": "Authentication & Identity Verification",
+      "features": [
+        {
+          "id": "FEAT-017",
+          "title": "Login & Signup Options",
+          "stories": [
+            {
+              "id": "STORY-030",
+              "title": "User can sign up with email and password",
+              "description": "As a user, I can sign up using an email address and password to create an account.",
+              "priority": "high",
+              "status": "todo",
+              "estimate_hours": 2,
+              "labels": [
+                "auth",
+                "signup",
+                "email"
+              ]
+            },
+            {
+              "id": "STORY-031",
+              "title": "User can login using email and password",
+              "description": "As a user, I can login with my email and password securely.",
+              "priority": "high",
+              "status": "todo",
+              "estimate_hours": 2,
+              "labels": [
+                "auth",
+                "login",
+                "email"
+              ]
+            },
+            {
+              "id": "STORY-032",
+              "title": "User can sign up or login with OTP",
+              "description": "As a user, I can choose to sign up or login using an OTP sent to my email address or phone number.",
+              "priority": "high",
+              "status": "todo",
+              "estimate_hours": 3,
+              "labels": [
+                "auth",
+                "otp",
+                "login"
+              ]
+            },
+            {
+              "id": "STORY-033",
+              "title": "Verify OTP before access",
+              "description": "As a user, I must verify the OTP before I can access my account or dashboard.",
+              "priority": "high",
+              "status": "todo",
+              "estimate_hours": 2,
+              "labels": [
+                "auth",
+                "verification",
+                "otp"
+              ]
+            },
+            {
+              "id": "STORY-034",
+              "title": "Show success or error message after login",
+              "description": "As a user, I should see clear messages after login attempts succeed or fail.",
+              "priority": "medium",
+              "status": "todo",
+              "estimate_hours": 1,
+              "labels": [
+                "auth",
+                "feedback",
+                "ux"
+              ]
+            },
+            {
+              "id": "STORY-035",
+              "title": "Forgot Password with reset email",
+              "description": "As a user, I can request a password reset link via email if I forget my password.",
+              "priority": "high",
+              "status": "todo",
+              "estimate_hours": 2,
+              "labels": [
+                "auth",
+                "password",
+                "recovery"
+              ]
+            },
+            {
+              "id": "STORY-036",
+              "title": "Resend OTP with cooldown",
+              "description": "As a user, I can request to resend the OTP but only after a short cooldown to prevent abuse.",
+              "priority": "high",
+              "status": "todo",
+              "estimate_hours": 1,
+              "labels": [
+                "auth",
+                "otp",
+                "resend"
+              ]
+            },
+            {
+              "id": "STORY-037",
+              "title": "Login attempt throttling or Captcha",
+              "description": "As a developer, I want to prevent brute force attacks using login attempt limits or captcha verification.",
+              "priority": "high",
+              "status": "todo",
+              "estimate_hours": 2,
+              "labels": [
+                "security",
+                "captcha",
+                "bruteforce"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EPIC-010",
+      "title": "Admin Analytics, Payments & Security",
+      "features": [
+        {
+          "id": "FEAT-018",
+          "title": "Revenue & Lead Analytics Dashboard",
+          "stories": [
+            {
+              "id": "STORY-038",
+              "title": "Admin can view revenue reports",
+              "description": "As an admin, I can view monthly and yearly revenue reports by payment type, plan, and category.",
+              "priority": "high",
+              "status": "todo",
+              "estimate_hours": 3,
+              "labels": [
+                "admin",
+                "analytics",
+                "revenue"
+              ]
+            },
+            {
+              "id": "STORY-039",
+              "title": "Admin can view lead conversion metrics",
+              "description": "As an admin, I can view stats like total leads, accepted leads, and business conversions.",
+              "priority": "high",
+              "status": "todo",
+              "estimate_hours": 3,
+              "labels": [
+                "admin",
+                "leads",
+                "conversion"
+              ]
+            },
+            {
+              "id": "STORY-040",
+              "title": "Admin dashboard with category-wise insights",
+              "description": "As an admin, I can filter analytics by business category, time period, and region.",
+              "priority": "medium",
+              "status": "todo",
+              "estimate_hours": 3,
+              "labels": [
+                "dashboard",
+                "filtering",
+                "analytics"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "FEAT-019",
+          "title": "Payment Gateways & Transaction Management",
+          "stories": [
+            {
+              "id": "STORY-041",
+              "title": "Integrate multiple payment methods",
+              "description": "As a business user, I can pay using UPI, cards, wallets, or net banking.",
+              "priority": "high",
+              "status": "todo",
+              "estimate_hours": 4,
+              "labels": [
+                "payment",
+                "integration",
+                "gateway"
+              ]
+            },
+            {
+              "id": "STORY-042",
+              "title": "Admin can track transactions and refunds",
+              "description": "As an admin, I can view all transactions, refunds, and failed payment logs.",
+              "priority": "high",
+              "status": "todo",
+              "estimate_hours": 3,
+              "labels": [
+                "payment",
+                "admin",
+                "transactions"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "FEAT-020",
+          "title": "Compliance and Payment Security",
+          "stories": [
+            {
+              "id": "STORY-043",
+              "title": "Ensure PCI-DSS compliance",
+              "description": "As a developer, I must follow PCI-DSS compliance standards when handling card data.",
+              "priority": "high",
+              "status": "todo",
+              "estimate_hours": 2,
+              "labels": [
+                "compliance",
+                "security",
+                "pci"
+              ]
+            },
+            {
+              "id": "STORY-044",
+              "title": "Secure payment-related APIs and webhooks",
+              "description": "As a developer, I must secure APIs/webhooks with token validation and HTTPS enforcement.",
+              "priority": "high",
+              "status": "todo",
+              "estimate_hours": 2,
+              "labels": [
+                "security",
+                "api",
+                "webhook"
+              ]
+            },
+            {
+              "id": "STORY-045",
+              "title": "Add audit logs for payments and admin actions",
+              "description": "As an admin, I want to see detailed logs of all financial operations and critical changes.",
+              "priority": "medium",
+              "status": "todo",
+              "estimate_hours": 2,
+              "labels": [
+                "audit",
+                "logs",
+                "admin"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EPIC-011",
+      "title": "Pricing Plans & Add-Ons",
+      "features": [
+        {
+          "id": "FEAT-021",
+          "title": "Plan Management",
+          "stories": [
+            {
+              "id": "STORY-046",
+              "title": "Define pricing plans for business listings",
+              "description": "As an admin, I can create and manage plans like Free, Silver, Gold, and Platinum with different features, prices, and limits.",
+              "priority": "high",
+              "status": "todo",
+              "estimate_hours": 3,
+              "labels": [
+                "pricing",
+                "plans",
+                "admin"
+              ]
+            },
+            {
+              "id": "STORY-047",
+              "title": "Display comparison matrix of plans",
+              "description": "As a user, I can view a clear matrix comparing the features of each plan before selecting one.",
+              "priority": "high",
+              "status": "todo",
+              "estimate_hours": 2,
+              "labels": [
+                "ui",
+                "plans",
+                "comparison"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "FEAT-022",
+          "title": "Plan Subscription & Upgrade",
+          "stories": [
+            {
+              "id": "STORY-048",
+              "title": "User can subscribe to a plan",
+              "description": "As a business owner, I can subscribe to a selected plan and activate additional listing features.",
+              "priority": "high",
+              "status": "todo",
+              "estimate_hours": 2,
+              "labels": [
+                "subscription",
+                "user",
+                "plans"
+              ]
+            },
+            {
+              "id": "STORY-049",
+              "title": "User can upgrade or renew plan",
+              "description": "As a business owner, I can upgrade my plan to a higher tier or renew my current plan before it expires.",
+              "priority": "medium",
+              "status": "todo",
+              "estimate_hours": 2,
+              "labels": [
+                "upgrade",
+                "renewal",
+                "plans"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "FEAT-023",
+          "title": "Add-ons and Campaigns",
+          "stories": [
+            {
+              "id": "STORY-050",
+              "title": "Purchase additional lead credits",
+              "description": "As a business owner, I can buy extra lead credits in packs like 10 or 50 based on my need.",
+              "priority": "medium",
+              "status": "todo",
+              "estimate_hours": 1,
+              "labels": [
+                "credits",
+                "purchase",
+                "addon"
+              ]
+            },
+            {
+              "id": "STORY-051",
+              "title": "Participate in festival offer campaigns",
+              "description": "As a business owner, I can pay to participate in special festival promotions run by the admin.",
+              "priority": "medium",
+              "status": "todo",
+              "estimate_hours": 2,
+              "labels": [
+                "campaign",
+                "festival",
+                "promotion"
+              ]
+            },
+            {
+              "id": "STORY-052",
+              "title": "Buy banner ad slots",
+              "description": "As a business owner, I can purchase banner ad slots for homepage or category pages for fixed durations.",
+              "priority": "medium",
+              "status": "todo",
+              "estimate_hours": 2,
+              "labels": [
+                "ads",
+                "banner",
+                "visibility"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EPIC-012",
+      "title": "Bonus Features for Business Growth",
+      "features": [
+        {
+          "id": "FEAT-024",
+          "title": "Invoices & Receipts",
+          "stories": [
+            {
+              "id": "STORY-053",
+              "title": "Auto-generate invoice on payment",
+              "description": "As a business owner, I automatically receive an invoice PDF after each payment, including GST and billing details.",
+              "priority": "medium",
+              "status": "todo",
+              "estimate_hours": 2,
+              "labels": [
+                "invoice",
+                "payment",
+                "receipt"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "FEAT-025",
+          "title": "Listing Customization for Paid Plans",
+          "stories": [
+            {
+              "id": "STORY-054",
+              "title": "Custom colors and logo for listings",
+              "description": "As a premium business user, I can customize my listing's background, logo, and badge color to stand out in results.",
+              "priority": "medium",
+              "status": "todo",
+              "estimate_hours": 2,
+              "labels": [
+                "branding",
+                "premium",
+                "listing"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "FEAT-026",
+          "title": "Referral System",
+          "stories": [
+            {
+              "id": "STORY-055",
+              "title": "Refer and earn credits",
+              "description": "As a user or business owner, I can refer others to join HBC and earn lead credits or discounts when they subscribe.",
+              "priority": "medium",
+              "status": "todo",
+              "estimate_hours": 3,
+              "labels": [
+                "referral",
+                "reward",
+                "invite"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "FEAT-027",
+          "title": "Push Notifications & Email Alerts",
+          "stories": [
+            {
+              "id": "STORY-056",
+              "title": "Notify users of local updates",
+              "description": "As a user, I receive alerts for nearby business events, campaigns, or new listings based on my preferences.",
+              "priority": "medium",
+              "status": "todo",
+              "estimate_hours": 3,
+              "labels": [
+                "notifications",
+                "email",
+                "campaigns"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
