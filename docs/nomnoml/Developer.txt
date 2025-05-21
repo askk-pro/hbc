@@ -1,0 +1,6 @@
+#direction: right
+[<actor> Developer] --> [Define Role-Based Access]
+[Developer] --> [Implement OTP Auth & Email Login]
+[Developer] --> [Secure Payment API & Gateway Integration]
+[Developer] --> [Generate Invoices]
+[Developer] --> [Configure RLS & Security Policies]

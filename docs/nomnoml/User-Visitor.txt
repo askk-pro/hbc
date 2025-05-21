@@ -1,0 +1,9 @@
+#direction: right
+[<actor> User / Visitor] --> [Register / Login via OTP or Email]
+[User / Visitor] --> [Search Businesses]
+[User / Visitor] --> [View Business Listings]
+[User / Visitor] --> [Submit Lead]
+[User / Visitor] --> [Book Appointments]
+[User / Visitor] --> [Make Donations]
+[User / Visitor] --> [Buy Products]
+[User / Visitor] --> [Refer Businesses or Users]

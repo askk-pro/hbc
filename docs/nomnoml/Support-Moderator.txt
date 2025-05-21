@@ -1,0 +1,5 @@
+#direction: right
+[<actor> Support / Moderator] --> [Assist Login or Account Issues]
+[Support / Moderator] --> [Respond to Support Tickets]
+[Support / Moderator] --> [Moderate Business Content]
+[Support / Moderator] --> [Help Approve Campaigns]

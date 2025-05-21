@@ -1,0 +1,6 @@
+#direction: right
+[<actor> System (Automated)] --> [Send OTPs for Login]
+[System (Automated)] --> [Expire OTPs Securely]
+[System (Automated)] --> [Generate Invoices]
+[System (Automated)] --> [Send Notification Emails]
+[System (Automated)] --> [Enforce Plan & Credit Limits]

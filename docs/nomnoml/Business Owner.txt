@@ -1,0 +1,9 @@
+#direction: right
+[<actor> Business Owner] --> [Register Business]
+[Business Owner] --> [Edit Profile, Upload Logo]
+[Business Owner] --> [Purchase Lead Credits]
+[Business Owner] --> [Manage Leads]
+[Business Owner] --> [Post Offers / Events]
+[Business Owner] --> [Subscribe to Plans]
+[Business Owner] --> [Upload Video/Audio Greetings]
+[Business Owner] --> [Receive Orders or Donations]

@@ -1,0 +1,8 @@
+#direction: right
+[<actor> Admin / Super Admin] --> [Approve / Reject Businesses]
+[Admin / Super Admin] --> [Manage Plans & Lead Pricing]
+[Admin / Super Admin] --> [Monitor Transactions & Refunds]
+[Admin / Super Admin] --> [View Reports & Analytics]
+[Admin / Super Admin] --> [Assign Roles]
+[Admin / Super Admin] --> [Moderate Reviews & Content]
+[Admin / Super Admin] --> [Launch Campaigns / Banners]
