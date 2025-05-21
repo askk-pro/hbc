@@ -1,0 +1,3 @@
+Create a setup plan (environments, GitHub actions, etc.)?
+
+Build a performance benchmark checklist?

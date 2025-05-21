@@ -1,0 +1,14 @@
+#direction: right
+#stroke: #333
+#fill: #E1F5FE
+
+[<actor> Users] -> [Next.js UI (SSR + CSR + SEO)]
+
+[Next.js UI (SSR + CSR + SEO)] -> [Supabase (PostgreSQL + Auth + RLS)]
+[Next.js UI (SSR + CSR + SEO)] -> [Vercel Hosting (CDN + Auto-scale)]
+
+[Supabase (PostgreSQL + Auth + RLS)] -> [Supabase Edge Functions]
+[Supabase (PostgreSQL + Auth + RLS)] -> [Supabase Storage (Media)]
+[Supabase (PostgreSQL + Auth + RLS)] -> [Supabase Realtime (Leads + Notifications)]
+
+[Supabase Edge Functions] -> [Payments (Razorpay / Stripe)]
